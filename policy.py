@@ -3,7 +3,6 @@ from abc import abstractmethod
 
 import numpy as np
 
-
 class Policy:
     @abstractmethod
     def __init__(self):
